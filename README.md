@@ -1,24 +1,24 @@
-Medical Data Analysis Using SQL
+## Medical Data Analysis Using SQL
 
-Project Overview
+## Project Overview
 
 This project focuses on analyzing a medical dataset using MySQL. It contains SQL solutions for 34 assignment questions involving patient details, hospital admissions, doctors, and province information.
 
 The queries explore patient demographics, admission patterns, medical diagnoses, and other healthcare-related data.
 
-Tools Used
+## Tools Used
 
 - MySQL
 - MySQL Workbench 8.0
 
-Database Tables
+## Database Tables
 
 - `patients`
 - `admissions`
 - `doctors`
 - `province_names`
 
-SQL Concepts Practiced
+## SQL Concepts Practiced
 
 - Data retrieval using `SELECT`
 - Filtering using `WHERE`, `IN`, `BETWEEN`, and `IS NULL`
@@ -36,11 +36,11 @@ SQL Concepts Practiced
 - Calculating BMI using SQL
 - Updating records using `UPDATE`
 
-Project File
+## Project File
 
 - `medical_data_analysis_sql.sql` — Contains SQL solutions for all 34 assignment questions.
 
-Notes and Limitations
+## Notes and Limitations
 
 - Questions 21 and 22 are duplicates in the original assignment.
 - The `UPDATE` query for Question 5 is included. However, execution was blocked because the database account returned an `UPDATE command denied` permission error.
